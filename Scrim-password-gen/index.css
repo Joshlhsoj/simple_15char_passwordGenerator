@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+#project{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
+}
+
+#topHeader{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#bottomerHeader{
+    font-family: 'Karla', sans-serif;
+    color: #4ADF86;
+    margin-top: 5px;
+}
+
+#safe-message{
+    color: lightgray;
+    font-weight: lighter;
+}
+
+#genClick{
+    background-color: #10B981;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.top-container{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: #2F3E53 2px solid;
+    
+}
+
+.passwordContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.genPassword {
+    display: flex;
+    color: #4ADF86;
+    text-align: center;
+    background-color: #273549;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
